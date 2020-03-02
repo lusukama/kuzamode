@@ -1,0 +1,588 @@
+/*Kuzamode project
+@2019
+@South Africa
+@Johannesburg
+*/
+body{
+    padding-top:63px;
+    background:#f4f4f4;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+body p, ul{
+    font-size:16px;
+}
+
+.btn-danger:hover{
+    background: #101010;
+}
+.btn-loan:focus{background: #c42126;}
+
+ul.list-unstyled{
+    font-size:22px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    list-style-type:inside !important;
+}
+
+h1, h2, h3, h4, h5, h6 {font-weight: bold; font-family: 'Roboto Mono', monospace;}
+
+.current{ color: #c42126 !important; font-weight: bolder;}
+
+.navbar-nav li a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase !important;
+    transition: all .5s;
+}
+
+.section-bg {
+    background:#fff;
+    padding:25px 15px;
+    margin-bottom:15px;
+}
+
+.section-bg h2{
+    margin-top:0;
+    margin-bottom:0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.banner-section{
+    width:100%;
+    background:#f4f4f4;
+    height:350px;
+    padding: 7% 20px;
+}
+
+.overlay{
+    background:rgba(255,255,255, .4);
+    border-radius: 8px;
+    padding:25px;
+}
+
+.banner-section h1{
+    font-size:3em;
+    font-weight: normal;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.home-banner{
+    background-image: url('../images/slider/loan-personal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height:400px;
+    display:flex;
+    align-items: center;
+}
+
+.page-header-bg{
+    height:400px;
+    width:100%;
+    background-image: url('../images/loan-application-bg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+
+.contact-bg{
+    height:400px;
+    width:100%;
+    background-image: url('../images/contact1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+
+.about-bg{
+    height:400px;
+    width:100%;
+    background-image: url('../images/about-us-banner.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+
+.services-bg{
+    height:250px;
+    width:100%;
+    background-image: url('../images/small-banner.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+
+.services-bg .overlay-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(196, 33, 38, 0.356);
+}
+
+.bg-overlay{
+    height:400px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.40);
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+
+.intro{
+    padding: 60px 0;
+    background: #c42126;
+}
+
+.intro h1{
+    font-size:3em;
+    font-weight: normal;
+    font-family: 'Roboto Mono', monospace;
+}
+.intro p {font-size:1.5em;}
+
+/* services object */
+.services{
+    background: #ffffff;
+    padding: 60px 0;
+    /* border-bottom: 1px solid #C42126; */
+    box-sizing: border-box;
+}
+
+.list-service{ padding: 50px 0;}
+/* new services test  */
+.services-intro-bg{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 250px;
+    background: rgba(196, 33, 38, 0.054);
+}
+#new_services{padding: 30px 0;}
+#new_services h3{ 
+    color: #c42126;
+    font-family:"Roboto nomo", sans-serif;
+    font-size:26px;
+    font-weight: 200;
+    margin: 10px 0;
+    padding: 0;
+    line-height: 1.5;
+    
+    }
+    #new_services p{ 
+    line-height: 1.5;
+    font-family:"Raleway", sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    margin:  30px 0;
+    z-index: 1;
+    transition: all .5s;
+    
+    }
+
+.btn_new_services{ margin: 0 0 20px;}
+
+#two-col{
+    padding: 60px 0;
+}
+ #two-col h3{font-size: 26px;}
+#two-col p{
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+#others_services{padding: 60px 0;}
+
+#others_services h3{
+    color: #C42126;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+#others_services p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 30px 0;
+}
+/* end test  */
+.col-md-4 .box-service{
+    padding: 29px 0;
+    margin: 0 10px 20px;
+    border-radius: 17px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+.services i{
+    font-size: 50px;
+    padding: 0px 20px 0;
+    position:relative;
+}
+
+
+.heading-serice{
+    color:#C42126;
+    font-family:'Roboto nomo',sans-serif;
+    font-size: 24px;
+    line-height:1.5;
+    text-align:center;
+
+}
+.services p{
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    line-height:1.5;
+    text-align:center;
+}
+/* grow with us */
+#grow{
+    padding: 60px 0;
+}
+
+#grow figure{
+    margin: 20px 0;
+    padding: 0 0px 60px;
+}
+
+#grow .heading_grow {
+    font-family: 'Whitney-Light-Bas';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+#grow h4{
+    padding: 20px 0;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+#grow p{
+    font-family: "Raleway", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    word-break: break-all;
+
+}
+
+/*gallary css start here*/
+    .portfolio{ margin-bottom: 50px;}
+    .gallary h1{
+        color: #000;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Poppins',sans-serif;
+        letter-spacing: 2px;
+        line-height: 1.5;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .gallary h1:hover{
+        color: #ff7d79;
+        cursor: pointer;
+    }
+    .gallary-grid{
+        padding: 0px 15px;
+    }
+    .gallary_grid_img{
+        padding: 0;
+        /* margin-bottom: 80px; */
+    }
+    /*new css for gallary caption over*/
+    .gallary_grid_img:hover .caption-gally{
+        transform: translateY(0%) scale(1);
+            -webkit-transform: translateY(0%) scale(1);
+            -mos-transform: translateY(0%) scale(1);
+            -moz-transform: translateY(0%) scale(1);
+            -o-transform: translateY(0%) scale(1)
+    }
+    .gallary_grid_img{
+        position:relative;
+        overflow:hidden;
+    }
+    .gallary_grid_img >.caption-gally{
+        display:none;
+    }
+    .gallary_grid_img > .caption-gally{
+        display:block;
+        position:absolute;
+        padding:20px;
+        margin-bottom:auto;
+        text-align:center;
+    }
+    .gallary_grid_img img{
+        cursor: pointer;
+    }
+    .caption-gally{
+        white-space: nowrap;
+        background-color: #ecf0f1;
+        background-color: rgba(236,240,241,.9);
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        white-space: nowrap;
+        padding: 15px 20px;
+        text-align: center;
+        z-index: 99;
+        transition: opacity.05s;
+            -webkit-transition: opacity.05s;
+            -mos-transition: opacity .05s;
+            -moz-transition: opacity .05s;
+            -o-transition: opacity .05s;
+        transform:translateY(150%) scale(1.5);
+            -webkit-transform:translateY(150%) scale(1.5);
+            -mos-transform:translateY(150%) scale(1.5);
+            -moz-transform:translateY(150%) scale(1.5);
+            -o-transform:translateY(150%) scale(1.5);
+    }
+    .caption-gally i{
+        font-size: 70px;
+        color: #ff7d79;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    
+    .caption-gally ul{
+        display: inline-block;
+    }
+    
+    .caption-gally ul li{
+        background: #fff;
+        list-style: none;
+        border-radius: 50%;
+        color:#095880;
+        margin: 0;
+        height: 28px;
+        text-align: center;
+        line-height: 30px;
+        width: 28px;
+        transition: .05s all;
+            -webkit-transition: .05s all;
+            -mos-transition: .05s all;
+            -moz-transition: .05s all;
+            -o-transition: .05s all;
+    }
+    .caption-gally > .first-caption{
+        list-style-type: none;
+        cursor: pointer;
+        top: 50%;
+        left: 50%;
+        background: #ff4f81;
+        font-size: 15px;
+        font-weight: 800;
+        color: #fff;
+        padding: 13px;
+        margin-bottom: 10px;
+        margin-top: 3px;
+        text-transform: uppercase;
+    }
+    .caption-gally{
+        text-align: center;
+        cursor: pointer;
+    }
+    .caption-gally > .full-caption > h4:hover{
+        color: #ff7d79;
+    }.caption-gally > .full-caption > i:hover{
+        color: #000;
+    }
+    .caption-gally > .full-caption {
+        top: 40%;
+        right: 20%;
+        left: 20%;
+        bottom: 40%;
+        position: absolute;
+}
+  
+
+.service{
+    min-height: 310px;
+    color:#fff;
+    padding:40px 25px;
+}
+
+.service h3{
+    font-weight: normal;
+    font-family: 'Roboto Mono', monospace;
+}
+.btn-services:focus{ outline: none; border:none; }
+.btn.active.focus{outline: none !important;}
+.btn-services:hover{
+    background:#ddd;
+    color: #101010;
+}
+
+.service-content h3{
+    font-family: 'Roboto Mono', monospace;
+}
+.service-content p{
+    font-family: 'Whitney-Medium-Bas.otf',sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Services Page*/
+.service-content{
+    background:#fff;
+    padding:25px;
+    margin-top:25px;
+    color:#222;
+}
+
+/*contact*/
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.contact{
+    margin-top:2em;
+}
+
+.contact-form{
+    margin-top:2em;
+}
+
+.contact-details{
+    margin-top:40px;
+}
+
+/*social media */
+#socialMedia a{
+    color:#c42126;
+}
+
+footer .fa{
+    font-size:1.5em;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+/* call to action */
+#banner-cta{
+    background: #C42126;
+    background-image: url('../images/hero-cta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-blend-mode: normal;
+    text-align: center;
+    height:400px;
+    width: 100%;
+    /* display:inline-block; */
+}
+#banner-cta a{ margin-top: 200px;}
+/*Footer*/
+footer{
+    /* margin-top:50px; */
+    width:100%;
+    background:#f4f4f4;
+    background:#101010;
+    padding:40px 15px;
+    color:#999;
+    border-top:5px solid #c42126;
+    border-color:#ddd;
+}
+
+footer h3 {
+    color:#ccc;
+    font-weight: normal;
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer ul.list-unstyled,footer p{
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.copyright p{ font-size: 16px !important;}
+
+.copyright{
+    border-top:1px solid rgba(255,255,255, .1);
+    padding-top:15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+footer .selianord:hover{text-decoration: none;}
+
+/*Jump to the top */
+.go-top {
+    position: fixed;
+    right: 60px;
+    bottom: 40px;
+    background-color: #c42126;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 15px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+a.go-top span {
+    font-size: 18px;
+}
+
+a.go-top:hover {
+    color:#fff;
+    background-color: #101010;
+    border-color: #fff;
+    border:1px solid;
+}
+
+
+/*third party */
+.intl-tel-input {
+    display: block;
+}
+
+/* Carousel */
+.carousel-inner p.lead{
+    font-size:2.5em;
+    font-family: 'Whitney-Medium-Bas.otf',sans-serif;
+    line-height: 1.2em;
+}
+
+.btn-slider:hover{
+    background: #101010;
+    border:1px solid;
+    border-color: #fff;
+}
